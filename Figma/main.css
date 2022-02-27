@@ -1,0 +1,343 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    background: #454545;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.border{
+    width: 45px;
+    height: 45px;
+    background: rgb(209, 209, 209);
+    border-radius: 1000px;
+    border:solid 1px rgb(209, 209, 209);
+}
+
+.left{
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.right{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.border2{
+    width: 20px;
+    height: 20px;
+    background: rgb(209, 209, 209);
+    border-radius: 1000px;
+    border: solid 1px rgb(209, 209, 209);
+}
+main{
+    width: 100%;
+    height: 400px;
+    background: rgb(172, 171, 171);
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    margin-bottom: 100px;
+    margin-top: 130px;
+}
+.box{
+    background: #454545;
+    width: 220px;
+    height: 200px;
+}
+.container{
+    margin-top: 200px;
+    width: 100%;
+    background: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .ecran{
+    margin-left: 310px;
+    font-size: 40px;
+}
+.boxs2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    margin-top: 40px;
+}
+.box2{
+    width: 297px;
+    height: 200px;
+    background: #454545;
+}
+.boxs3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.box3{
+    width: 297px;
+    height: 40px;
+    background: rgb(172, 171, 171);
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background: #000;
+    color: white;
+}
+.container2{
+    margin-top: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container2 .ecran{
+    margin-left: 310px;
+    font-size: 40px;
+}
+.container2 .top{
+    margin-top: 30px;
+    display: flex;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.container2 .top .box{
+    width: 452px;
+    height: 320px;
+    background: #454545;
+
+}
+.container2 .buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    padding-top: 10px;
+}
+.container2 .buttom .box{
+    width: 452px;
+    height: 320px;
+    background: #454545;
+}
+.container3{
+    margin-top: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container3 .ecran{
+    margin-left: 310px;
+    font-size: 40px;
+}
+.container3 .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.container3 .top .box{
+    margin-top: 20px;
+    width: 297px;
+    height: 200px;
+    background: #454545;
+}
+.container3 .buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.container3 .buttom .box{
+    width: 297px;
+    height: 40px;
+    background: rgb(172, 171, 171);
+}
+.container4{
+    margin-top: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container4 .ecran{
+    margin-left: 310px;
+    font-size: 40px;
+}
+.container4 .top{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.container4 .top .box{
+    width: 297px;
+    height: 200px;
+    background: #454545;
+}
+.container4 .buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.container4 .buttom .box{
+    width: 297px;
+    height: 40px;
+    background: rgb(172, 171, 171);
+}
+.container5{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container5 .ecran{
+    margin-left: 310px;
+    font-size: 40px;
+}
+
+.container5 .top{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.container5 .top .box{
+    width: 297px;
+    height: 200px;
+    background: #454545;
+}
+.container5 .buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.container5 .buttom .box{
+    width: 297px;
+    height: 40px;
+    background: rgb(172, 171, 171);
+}
+.container5 .top .box1{
+    width: 297px;
+    height: 200px;
+    background: white;
+}
+.container5 .buttom .box1{
+    width: 297px;
+    height: 40px;
+    background: white;
+}
+.container6{
+    padding-top: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container6 .topp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 55px;
+    margin-top: 20px;
+}
+.container6 .ecran{
+    margin-left: 310px;
+    font-size: 40px;
+}
+.span{
+    font-size: 30px;
+}
+.container6 .buttomm{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 55px;
+}
+.container7{
+    margin-top: 70px;
+    width: 100%;
+    height: 420px;
+    background: #000;
+    justify-content: center;
+    align-items: center;
+}
+.container7 .top .box{
+    width: 297px;
+    margin-top: 50px;
+    height: 200px;
+    background: rgb(172, 171, 171);
+}
+.container7 .buttom .box{
+    width: 297px;
+    height: 50px;
+    background: white;
+}
+.container7 .ecran{
+    color: white;
+    margin-left: 300px;
+    font-size: 40px;
+}
+.container8{
+    padding: 120px;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container8 .leftt .boox{
+    margin-top: 10px;
+    width: 290px;
+    height: 50px;
+    background: rgb(209, 209, 209);
+}
+.container8 .right .box{
+    width: 200px;
+    height: 200px;
+    background: #000;
+
+}
+.container9{
+    height: 70px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -190px;
+}
+.container9 .leftt .button{
+    width: 290px;
+    height: 70px;
+}
